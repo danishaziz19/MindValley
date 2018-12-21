@@ -8,9 +8,7 @@
 
 import Foundation
 
-class FileViewModel {
-
-    var api: API = API()
+class FileViewModel : BaseViewModel {
 
     func loadPDFFile(from url: URL,dataType: DataType, completion: @escaping (Data?, Error?) -> Void) {
          api.getData(from: url, dataType: dataType) { (data, error) in
@@ -19,9 +17,7 @@ class FileViewModel {
                 completion(nil, error)
                 return
             }
-
             completion(data, nil)
-
         }
     }
 }

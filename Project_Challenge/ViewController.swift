@@ -43,7 +43,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func loadData() {
         Model().getBoards(url: "https://pastebin.com/raw/wgkJgazE") { (boardModels, error) in
-           // print(boardModels ?? "")
             if let boardModels = boardModels {
                 let boardModel = boardModels[self.itemLoad..<self.maxItemsLoad]
                 if boardModel.count > 0 {

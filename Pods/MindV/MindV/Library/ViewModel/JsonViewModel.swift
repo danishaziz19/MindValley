@@ -8,9 +8,7 @@
 
 import Foundation
 
-class JsonViewModel {
-
-    var api: API = API()
+class JsonViewModel : BaseViewModel {
 
     func loadJsonAsData(from url: URL, completion: @escaping (Data? , Error?) -> Void) {
         API().getData(from: url, dataType: .json) { (data, error) in

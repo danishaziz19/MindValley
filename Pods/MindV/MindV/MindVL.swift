@@ -12,12 +12,10 @@ import UIKit
 public class MindVL {
 
     private static var sharedInstance: MindVL!
-    private var imageViewModel: ImageViewModel = ImageViewModel()
     private init() {
-
     }
 
-    public static func shared(totalCostLimit:Int? = 10, countLimit:Int? = 10, isDiscardableContent:Bool? = false) -> MindVL {
+    public static func shared() -> MindVL {
         if sharedInstance != nil {
             return sharedInstance
         } else{
@@ -26,7 +24,7 @@ public class MindVL {
         }
     }
 
-    public static func setCacheLimt(totalCostLimit:Int? = 10, countLimit:Int? = 10, isDiscardableContent:Bool? = false) {
+    public func setCacheLimt(totalCostLimit:Int? = 10, countLimit:Int? = 10, isDiscardableContent:Bool? = false) {
         CacheManager.setCacheLimt(totalCostLimit: totalCostLimit, countLimit: countLimit, isDiscardableContent: isDiscardableContent)
     }
 
@@ -43,18 +41,16 @@ public class MindVL {
     }
 
     public func loadImage(from url: URL, completion: @escaping (UIImage?, Error?) -> Void) {
-        imageViewModel.loadImage(from: url) { (image, error) in
+        ImageViewModel().loadImage(from: url) { (image, error) in
             completion(image, error)
         }
     }
 
     public func loadImage(from url: URL, imageView: UIImageView, placeHolder: String) {
-
         DispatchQueue.main.async() {
             imageView.image = UIImage(named: placeHolder)
         }
-
-        imageViewModel.loadImage(from: url) { (image, error) in
+        ImageViewModel().loadImage(from: url) { (image, error) in
             DispatchQueue.main.async() {
                 if let image = image {
                     imageView.image = image
@@ -69,5 +65,9 @@ public class MindVL {
         FileViewModel().loadPDFFile(from: url, dataType: .pdf) { (data, error) in
             completion(data, error)
         }
+    }
+
+    public func cancelDownload(from url: URL) {
+        BaseViewModel().cancelDownload(from: url)
     }
 }

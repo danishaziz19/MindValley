@@ -8,35 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		107762B5212C59A780B42F52434A079B /* Pods-Project_Challenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E20E8827E7C048F19344D414275996 /* Pods-Project_Challenge-dummy.m */; };
-		26536FA7CF1ED41FD79F6091450E73C0 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429C2A6B545D5A4CE946FF2B68C16E8E /* IntExtensions.swift */; };
-		33EA7BB5FA5953018FB965D71F15A21E /* MindV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E970D04838BFEDC643ACE0D35AF7E /* MindV-dummy.m */; };
-		356F2EFDF83DDA5A71A09ACBC44C3A3F /* Freddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3898C55034CBF01CC82B56D9395039AB /* Freddy-dummy.m */; };
+		2241AEE1888363C3A8079BCDF903F5F5 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F294FA8B0FC199846EA7821BC4B2F /* DataType.swift */; };
+		26536FA7CF1ED41FD79F6091450E73C0 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E737E8DFCE1B498524CA13CC63E746 /* IntExtensions.swift */; };
+		356F2EFDF83DDA5A71A09ACBC44C3A3F /* Freddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC90C668F6C602C5CB069DE4A6973B /* Freddy-dummy.m */; };
+		3AE5BD72C0A28564E41F23EF67AB7193 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280473829F1EFC3C50093C5BEE2FCE6 /* CacheManager.swift */; };
 		3CDD73A16BA938F303AD380FD91FD22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		44A5553E7B6F877154B5079B033CC917 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76705B980F31FB88BB636AE330D20654 /* JSONSubscripting.swift */; };
-		4AD083530507ABAA6E76F5F2E11C1149 /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B1CD7B848469BB39D94249F330731 /* JSONLiteralConvertible.swift */; };
-		4E6AA51FA9EEC55587DB56AB84E73FAD /* MindV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE1E7225448BBF89C905BA2CF4B92B8 /* MindV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D423DBDE97C34380592185F894B3B2E /* JsonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE7BA0BC66BBE7D0AD3C0F20D41DCA /* JsonViewModel.swift */; };
+		44A5553E7B6F877154B5079B033CC917 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9436571938407CFC721E665CC7EF3 /* JSONSubscripting.swift */; };
+		44A802651C2B8937FBD996436F25576D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8087A73EE88E2AB2739ED87C1F89A460 /* BaseViewModel.swift */; };
+		4AD083530507ABAA6E76F5F2E11C1149 /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4707FEF751B3D9638C16FEE33093DB7 /* JSONLiteralConvertible.swift */; };
 		56EEFA77E4BDC5512AF510A9755C4C44 /* Pods-Project_Challenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7821772352BC01EE556F99CC092E5418 /* Pods-Project_Challenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59308A8D56579B24D15AA3A9B94D5311 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E25B1516DD4D11E26AEBA85F161E28 /* JSON.swift */; };
-		5C698243969F465602B8C6C6F7C31C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		5F9E3CDBCAF3AE50E0961961DB3976C9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D52288E3D0985CBEDF62CD6539AED2 /* API.swift */; };
-		63B0B82507A1DE12BC64DE6D2A7F899A /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D3CEF6FD05AF2C669F597945D171A /* JSONEncodable.swift */; };
-		70ECD2E436C8E46807BF8E7593A6BDB3 /* Freddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6192E71E912C8C4DCA0CAAAF1B01028 /* Freddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72515C8E6D8A94EC368510DDFD03E6F9 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725E07143B700AD5EA2F6051C644826 /* ImageViewModel.swift */; };
-		749CD0E10D5C7B2475D6A538C41BFD63 /* FileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EC10A8206D9E1A6197DD4B135C880 /* FileViewModel.swift */; };
-		7EC77CF7225BD1C9AEE0335A73645902 /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EDA4388C3FDAB169FC5C78D501DE5 /* JSONEncodingDetector.swift */; };
-		81BD56ED818BE95065F077B879FDBE7C /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AED7132E3EFBEC2563108057975DFB /* Downloader.swift */; };
-		9924AB0AB396A7665E2EC7FF11193F22 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6884721C8411D66D47BC2EC8CFC72 /* JSONSerializing.swift */; };
+		59308A8D56579B24D15AA3A9B94D5311 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907B0DC8D4F7A9F43F2EBA3DA5B4C72 /* JSON.swift */; };
+		5C4C012A9C6692B2E131FA33147365E7 /* FileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F69777B288FED01AEA37091209D7E /* FileViewModel.swift */; };
+		63B0B82507A1DE12BC64DE6D2A7F899A /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3165BEFB7F75625EFE57D087AE1F37E /* JSONEncodable.swift */; };
+		68A8BDE5C3804D570953B4E96DEAA213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		70ECD2E436C8E46807BF8E7593A6BDB3 /* Freddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AB1385C81DE9F1C1DA43CBD1C148B3 /* Freddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F0A79C16EA3550EDB665393487CC61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		7EC77CF7225BD1C9AEE0335A73645902 /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD4BF65FCED962CD5D776D68AA9B1 /* JSONEncodingDetector.swift */; };
+		8D3A1ECF51F93B3F940413036F002A13 /* MindVL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77371CBD2F0FDBF3E786E82E12776374 /* MindVL.swift */; };
+		935D468F1E9C3B90515BE64D52EABF58 /* MindV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 977ABE8C900497B1C7C45A850CCFF1F6 /* MindV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9924AB0AB396A7665E2EC7FF11193F22 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066774EC077816C64ED32463F537DBE4 /* JSONSerializing.swift */; };
 		B61E38D2EDEDA1ECE58C0282E03D2008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		B71E2F6F49FA88AC6CC74901F4572779 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFB15FC3217934F6F2BDFAF241C19D /* CacheManager.swift */; };
-		BB9859C747D44F0A737E24D5D6955C03 /* JsonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352FCC59080A02ACBD10FC61B88921E1 /* JsonViewModel.swift */; };
-		CE618ECEF9EC20193E4E521B605FAB10 /* JSONOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F344EAA1689655F83392914FFA505 /* JSONOptional.swift */; };
-		D19625B3BD9C2473CB30F0C59DC693A1 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D2192BDDA9F814F17588B3C58B0BC /* DataType.swift */; };
-		E2A862A68D23A3EC7E503BAADEC38E03 /* MindVL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB62273ADBD6A6D77884A2E0E503484A /* MindVL.swift */; };
-		E5343CD8897FBBB0FD1BD91A3ACFF7C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		E797A17D8F79C99818379511A639E392 /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3313926387FFA0F1864747BD74CCAB7C /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED7B19D38BC96083E778686448446057 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7D777A4E337D17C497C58D68FEC00 /* JSONDecodable.swift */; };
-		EE229FD20BCAB63D30D93E8E81590CC0 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B304889232C5076F6D5CFDB6DE658F /* JSONParsing.swift */; };
-		FF92DC3E28888D844F44367EF7D2A902 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F167B4A4759646E25A40B58CA863273 /* JSONParser.swift */; };
+		CE618ECEF9EC20193E4E521B605FAB10 /* JSONOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBDB982C5A59FBD79C9CBC9F55AD0 /* JSONOptional.swift */; };
+		DF53967A8D018393DE8C08BAD24E8DD4 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FEB3DF4FAEE838E568FD3836F0D13 /* Downloader.swift */; };
+		E797A17D8F79C99818379511A639E392 /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9C390C52B4BA37BA7B464FCAFB02DC /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED7B19D38BC96083E778686448446057 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211BD0ECDEF499DE03E774B67243616 /* JSONDecodable.swift */; };
+		EE229FD20BCAB63D30D93E8E81590CC0 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2447E94BB8AABE2BB7E19566C8A3C3EA /* JSONParsing.swift */; };
+		EEC1A47A98209A245CC6852D9B1FC396 /* MindV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B655CC4F92E40E03C950869F65837 /* MindV-dummy.m */; };
+		F91D7039866629F084BABFEDB8E6A988 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5708BB5CD6BA1B9DDE8AA90C31DCD9A /* API.swift */; };
+		FAFC6E634DFCA08A5C2AAD9E04689041 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE89ABCDBB1D3D68B20300FE06C35D /* ImageViewModel.swift */; };
+		FF92DC3E28888D844F44367EF7D2A902 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69444C3A3752FC6A42420C9D1069D5 /* JSONParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD897244E465333C77119F408D2A0217;
+			remoteGlobalIDString = 1C032CAEF3040117B7F84D289484921D;
 			remoteInfo = MindV;
 		};
 		B829E61531C6C53898972897C0CDA4A0 /* PBXContainerItemProxy */ = {
@@ -57,71 +58,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030EDA4388C3FDAB169FC5C78D501DE5 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingDetector.swift; path = Sources/JSONEncodingDetector.swift; sourceTree = "<group>"; };
 		05818A0FA64D2245250609A657121066 /* Pods-Project_Challenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Project_Challenge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F167B4A4759646E25A40B58CA863273 /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/JSONParser.swift; sourceTree = "<group>"; };
-		15E7D777A4E337D17C497C58D68FEC00 /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = Sources/JSONDecodable.swift; sourceTree = "<group>"; };
-		184B1CD7B848469BB39D94249F330731 /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONLiteralConvertible.swift; path = Sources/JSONLiteralConvertible.swift; sourceTree = "<group>"; };
-		1BF49DE4FCC00676D915957FB49ACBA5 /* Freddy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Freddy.xcconfig; sourceTree = "<group>"; };
-		20921FC3829B44DFD09930DDFDC32CF6 /* Freddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Freddy.modulemap; sourceTree = "<group>"; };
-		26D52288E3D0985CBEDF62CD6539AED2 /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = MindV/Library/API/API.swift; sourceTree = "<group>"; };
-		3313926387FFA0F1864747BD74CCAB7C /* Freddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Freddy.h; path = Sources/Freddy.h; sourceTree = "<group>"; };
-		352FCC59080A02ACBD10FC61B88921E1 /* JsonViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonViewModel.swift; path = MindV/Library/ViewModel/JsonViewModel.swift; sourceTree = "<group>"; };
+		066774EC077816C64ED32463F537DBE4 /* JSONSerializing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializing.swift; path = Sources/JSONSerializing.swift; sourceTree = "<group>"; };
+		0AF708C6D72BBEEFE3685F23EB678033 /* MindV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindV.xcconfig; sourceTree = "<group>"; };
+		109FBDB982C5A59FBD79C9CBC9F55AD0 /* JSONOptional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONOptional.swift; path = Sources/JSONOptional.swift; sourceTree = "<group>"; };
+		1907B0DC8D4F7A9F43F2EBA3DA5B4C72 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		1B7FBAA71297906AB5425310F2412F8B /* Freddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Freddy.modulemap; sourceTree = "<group>"; };
+		2447E94BB8AABE2BB7E19566C8A3C3EA /* JSONParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Sources/JSONParsing.swift; sourceTree = "<group>"; };
+		2C9C390C52B4BA37BA7B464FCAFB02DC /* Freddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Freddy.h; path = Sources/Freddy.h; sourceTree = "<group>"; };
 		37D4285C9EB06608F28E0F6D8E8AE30D /* Pods-Project_Challenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project_Challenge-frameworks.sh"; sourceTree = "<group>"; };
-		3898C55034CBF01CC82B56D9395039AB /* Freddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Freddy-dummy.m"; sourceTree = "<group>"; };
 		3A19008D94F4626A39C64139468F5BC6 /* Pods-Project_Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_Challenge.release.xcconfig"; sourceTree = "<group>"; };
-		3F2E970D04838BFEDC643ACE0D35AF7E /* MindV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MindV-dummy.m"; sourceTree = "<group>"; };
+		3F7C1020E18BC9E827FC2CFFFCC80DFC /* MindV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MindV.modulemap; sourceTree = "<group>"; };
 		411834C451486D82413999F4AD3A9979 /* Pods-Project_Challenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project_Challenge-resources.sh"; sourceTree = "<group>"; };
-		429C2A6B545D5A4CE946FF2B68C16E8E /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Sources/IntExtensions.swift; sourceTree = "<group>"; };
 		449DEA27F7148A2F8A805A98AB789C8B /* Freddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Freddy.framework; path = Freddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A39D8F67D0A97CC2481D50528A574A1 /* MindV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MindV.modulemap; sourceTree = "<group>"; };
-		5A1CF9882F4905FDFE1D37CCB8AF2AB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65DFB15FC3217934F6F2BDFAF241C19D /* CacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheManager.swift; path = MindV/Library/CacheManager/CacheManager.swift; sourceTree = "<group>"; };
-		6A4D3CEF6FD05AF2C669F597945D171A /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = Sources/JSONEncodable.swift; sourceTree = "<group>"; };
+		47FE7BA0BC66BBE7D0AD3C0F20D41DCA /* JsonViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonViewModel.swift; path = MindV/Library/ViewModel/JsonViewModel.swift; sourceTree = "<group>"; };
+		49A9436571938407CFC721E665CC7EF3 /* JSONSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSubscripting.swift; path = Sources/JSONSubscripting.swift; sourceTree = "<group>"; };
+		4AD10A8DCF968CEAA82861C976C857B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6AD4BF65FCED962CD5D776D68AA9B1 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingDetector.swift; path = Sources/JSONEncodingDetector.swift; sourceTree = "<group>"; };
+		54A233FBA5A3BDD00098A49822FAB7DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B01F956A57B8E741765C00EDD785E9 /* MindV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindV-prefix.pch"; sourceTree = "<group>"; };
+		6A5DF78FEE356C157F76694A66B715FB /* Freddy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-prefix.pch"; sourceTree = "<group>"; };
 		6DB95E431314D77E8D5CFBFFE6A53D5F /* MindV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MindV.framework; path = MindV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74618A8F81E807C8D2B9656ED03802EF /* Pods-Project_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
-		76705B980F31FB88BB636AE330D20654 /* JSONSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSubscripting.swift; path = Sources/JSONSubscripting.swift; sourceTree = "<group>"; };
+		77371CBD2F0FDBF3E786E82E12776374 /* MindVL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindVL.swift; path = MindV/MindVL.swift; sourceTree = "<group>"; };
 		7821772352BC01EE556F99CC092E5418 /* Pods-Project_Challenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_Challenge-umbrella.h"; sourceTree = "<group>"; };
-		8725E07143B700AD5EA2F6051C644826 /* ImageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewModel.swift; path = MindV/Library/ViewModel/ImageViewModel.swift; sourceTree = "<group>"; };
+		8087A73EE88E2AB2739ED87C1F89A460 /* BaseViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = MindV/Library/ViewModel/BaseViewModel.swift; sourceTree = "<group>"; };
 		87E20E8827E7C048F19344D414275996 /* Pods-Project_Challenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project_Challenge-dummy.m"; sourceTree = "<group>"; };
+		87E737E8DFCE1B498524CA13CC63E746 /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Sources/IntExtensions.swift; sourceTree = "<group>"; };
 		9037B069ED37CF6963857AF33977ADC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9065FE2243ECDA63E1FDD9E301DDAC34 /* Pods_Project_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Project_Challenge.framework; path = "Pods-Project_Challenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96C6884721C8411D66D47BC2EC8CFC72 /* JSONSerializing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializing.swift; path = Sources/JSONSerializing.swift; sourceTree = "<group>"; };
-		98C9AC4DC284C2446F5406FFFCEE11D6 /* Freddy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-prefix.pch"; sourceTree = "<group>"; };
-		99B48B39E02AB0CD475DCDDDCD665132 /* MindV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindV.xcconfig; sourceTree = "<group>"; };
-		9CE1E7225448BBF89C905BA2CF4B92B8 /* MindV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindV-umbrella.h"; sourceTree = "<group>"; };
-		A33D2192BDDA9F814F17588B3C58B0BC /* DataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = MindV/Library/Utilities/DataType.swift; sourceTree = "<group>"; };
-		A9AED7132E3EFBEC2563108057975DFB /* Downloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Downloader.swift; path = MindV/Library/Network/Downloader.swift; sourceTree = "<group>"; };
-		BB62273ADBD6A6D77884A2E0E503484A /* MindVL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindVL.swift; path = MindV/MindVL.swift; sourceTree = "<group>"; };
+		977ABE8C900497B1C7C45A850CCFF1F6 /* MindV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindV-umbrella.h"; sourceTree = "<group>"; };
+		9A6B655CC4F92E40E03C950869F65837 /* MindV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MindV-dummy.m"; sourceTree = "<group>"; };
+		A23FEB3DF4FAEE838E568FD3836F0D13 /* Downloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Downloader.swift; path = MindV/Library/Network/Downloader.swift; sourceTree = "<group>"; };
+		A280473829F1EFC3C50093C5BEE2FCE6 /* CacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheManager.swift; path = MindV/Library/CacheManager/CacheManager.swift; sourceTree = "<group>"; };
+		A4AB1385C81DE9F1C1DA43CBD1C148B3 /* Freddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-umbrella.h"; sourceTree = "<group>"; };
+		B3AE89ABCDBB1D3D68B20300FE06C35D /* ImageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewModel.swift; path = MindV/Library/ViewModel/ImageViewModel.swift; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C3F1135D51750DC53D56E4F54EE92FBF /* MindV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindV-prefix.pch"; sourceTree = "<group>"; };
-		D6192E71E912C8C4DCA0CAAAF1B01028 /* Freddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-umbrella.h"; sourceTree = "<group>"; };
+		C3165BEFB7F75625EFE57D087AE1F37E /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = Sources/JSONEncodable.swift; sourceTree = "<group>"; };
+		C46F69777B288FED01AEA37091209D7E /* FileViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileViewModel.swift; path = MindV/Library/ViewModel/FileViewModel.swift; sourceTree = "<group>"; };
+		C4707FEF751B3D9638C16FEE33093DB7 /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONLiteralConvertible.swift; path = Sources/JSONLiteralConvertible.swift; sourceTree = "<group>"; };
+		CD6F294FA8B0FC199846EA7821BC4B2F /* DataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = MindV/Library/Utilities/DataType.swift; sourceTree = "<group>"; };
 		D69DA9E4187C07076910638B2D7FD901 /* Pods-Project_Challenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project_Challenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		D83EC10A8206D9E1A6197DD4B135C880 /* FileViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileViewModel.swift; path = MindV/Library/ViewModel/FileViewModel.swift; sourceTree = "<group>"; };
-		D9E25B1516DD4D11E26AEBA85F161E28 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		DA69444C3A3752FC6A42420C9D1069D5 /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/JSONParser.swift; sourceTree = "<group>"; };
 		DDE2345FCBC368FAF923CF3B3BA44304 /* Pods-Project_Challenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Project_Challenge.modulemap"; sourceTree = "<group>"; };
-		E2B304889232C5076F6D5CFDB6DE658F /* JSONParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Sources/JSONParsing.swift; sourceTree = "<group>"; };
-		E51F344EAA1689655F83392914FFA505 /* JSONOptional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONOptional.swift; path = Sources/JSONOptional.swift; sourceTree = "<group>"; };
-		E7B7F2DF039F42D594C5377BF2196C7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E211BD0ECDEF499DE03E774B67243616 /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = Sources/JSONDecodable.swift; sourceTree = "<group>"; };
+		F5708BB5CD6BA1B9DDE8AA90C31DCD9A /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = MindV/Library/API/API.swift; sourceTree = "<group>"; };
+		F866EC3851BE0CC7082EA857D95AB89F /* Freddy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Freddy.xcconfig; sourceTree = "<group>"; };
+		FCFC90C668F6C602C5CB069DE4A6973B /* Freddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Freddy-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13915A6F5A3E5AA1F8CC91BE3EFBFEF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C698243969F465602B8C6C6F7C31C81 /* Foundation.framework in Frameworks */,
-				E5343CD8897FBBB0FD1BD91A3ACFF7C2 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		22F661153755322D9BFE617263DB64D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B61E38D2EDEDA1ECE58C0282E03D2008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7621A0AF498815CD8533BD06684099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F0A79C16EA3550EDB665393487CC61 /* Foundation.framework in Frameworks */,
+				68A8BDE5C3804D570953B4E96DEAA213 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +138,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F1D303C77F137D361EC71D8FD1FFC3 /* MindV */ = {
+			isa = PBXGroup;
+			children = (
+				F5708BB5CD6BA1B9DDE8AA90C31DCD9A /* API.swift */,
+				8087A73EE88E2AB2739ED87C1F89A460 /* BaseViewModel.swift */,
+				A280473829F1EFC3C50093C5BEE2FCE6 /* CacheManager.swift */,
+				CD6F294FA8B0FC199846EA7821BC4B2F /* DataType.swift */,
+				A23FEB3DF4FAEE838E568FD3836F0D13 /* Downloader.swift */,
+				C46F69777B288FED01AEA37091209D7E /* FileViewModel.swift */,
+				B3AE89ABCDBB1D3D68B20300FE06C35D /* ImageViewModel.swift */,
+				47FE7BA0BC66BBE7D0AD3C0F20D41DCA /* JsonViewModel.swift */,
+				77371CBD2F0FDBF3E786E82E12776374 /* MindVL.swift */,
+				1B4BE368216F167136D2AC7EB4E53FAC /* Support Files */,
+			);
+			name = MindV;
+			path = MindV;
+			sourceTree = "<group>";
+		};
 		029AB1721C872B44D6431E0807240BA6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +171,20 @@
 				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		1B4BE368216F167136D2AC7EB4E53FAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD10A8DCF968CEAA82861C976C857B5 /* Info.plist */,
+				3F7C1020E18BC9E827FC2CFFFCC80DFC /* MindV.modulemap */,
+				0AF708C6D72BBEEFE3685F23EB678033 /* MindV.xcconfig */,
+				9A6B655CC4F92E40E03C950869F65837 /* MindV-dummy.m */,
+				67B01F956A57B8E741765C00EDD785E9 /* MindV-prefix.pch */,
+				977ABE8C900497B1C7C45A850CCFF1F6 /* MindV-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MindV";
 			sourceTree = "<group>";
 		};
 		3A7AC603344062C16CC6E7FFC5BD57E0 /* Pods-Project_Challenge */ = {
@@ -189,25 +223,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F8B61B6C7D1FDA771E05EF8299729E6 /* Freddy */ = {
+		7C7564C4A0903B2AC24CB8C08C7B47E2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3313926387FFA0F1864747BD74CCAB7C /* Freddy.h */,
-				429C2A6B545D5A4CE946FF2B68C16E8E /* IntExtensions.swift */,
-				D9E25B1516DD4D11E26AEBA85F161E28 /* JSON.swift */,
-				15E7D777A4E337D17C497C58D68FEC00 /* JSONDecodable.swift */,
-				6A4D3CEF6FD05AF2C669F597945D171A /* JSONEncodable.swift */,
-				030EDA4388C3FDAB169FC5C78D501DE5 /* JSONEncodingDetector.swift */,
-				184B1CD7B848469BB39D94249F330731 /* JSONLiteralConvertible.swift */,
-				E51F344EAA1689655F83392914FFA505 /* JSONOptional.swift */,
-				0F167B4A4759646E25A40B58CA863273 /* JSONParser.swift */,
-				E2B304889232C5076F6D5CFDB6DE658F /* JSONParsing.swift */,
-				96C6884721C8411D66D47BC2EC8CFC72 /* JSONSerializing.swift */,
-				76705B980F31FB88BB636AE330D20654 /* JSONSubscripting.swift */,
-				B79F2149E03B85A09F721607E9A9BCD1 /* Support Files */,
+				B2F6A44E031358D26235F9ADC1BF3BDD /* Freddy */,
+				00F1D303C77F137D361EC71D8FD1FFC3 /* MindV */,
 			);
-			name = Freddy;
-			path = Freddy;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -215,74 +237,55 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				B49DFE8D6CCCD72478AEC975B34ED3BA /* Pods */,
+				7C7564C4A0903B2AC24CB8C08C7B47E2 /* Pods */,
 				4120B6AD0582C64FF421FBCE4C266507 /* Products */,
 				029AB1721C872B44D6431E0807240BA6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		96759569B9F4E933958E7549DC17B7F2 /* MindV */ = {
+		993BFC272DD904A550FBA6E52163342B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				26D52288E3D0985CBEDF62CD6539AED2 /* API.swift */,
-				65DFB15FC3217934F6F2BDFAF241C19D /* CacheManager.swift */,
-				A33D2192BDDA9F814F17588B3C58B0BC /* DataType.swift */,
-				A9AED7132E3EFBEC2563108057975DFB /* Downloader.swift */,
-				D83EC10A8206D9E1A6197DD4B135C880 /* FileViewModel.swift */,
-				8725E07143B700AD5EA2F6051C644826 /* ImageViewModel.swift */,
-				352FCC59080A02ACBD10FC61B88921E1 /* JsonViewModel.swift */,
-				BB62273ADBD6A6D77884A2E0E503484A /* MindVL.swift */,
-				E06E65FB62132DBB2A046DC370B0B4A7 /* Support Files */,
-			);
-			name = MindV;
-			path = MindV;
-			sourceTree = "<group>";
-		};
-		B49DFE8D6CCCD72478AEC975B34ED3BA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F8B61B6C7D1FDA771E05EF8299729E6 /* Freddy */,
-				96759569B9F4E933958E7549DC17B7F2 /* MindV */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B79F2149E03B85A09F721607E9A9BCD1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				20921FC3829B44DFD09930DDFDC32CF6 /* Freddy.modulemap */,
-				1BF49DE4FCC00676D915957FB49ACBA5 /* Freddy.xcconfig */,
-				3898C55034CBF01CC82B56D9395039AB /* Freddy-dummy.m */,
-				98C9AC4DC284C2446F5406FFFCEE11D6 /* Freddy-prefix.pch */,
-				D6192E71E912C8C4DCA0CAAAF1B01028 /* Freddy-umbrella.h */,
-				E7B7F2DF039F42D594C5377BF2196C7A /* Info.plist */,
+				1B7FBAA71297906AB5425310F2412F8B /* Freddy.modulemap */,
+				F866EC3851BE0CC7082EA857D95AB89F /* Freddy.xcconfig */,
+				FCFC90C668F6C602C5CB069DE4A6973B /* Freddy-dummy.m */,
+				6A5DF78FEE356C157F76694A66B715FB /* Freddy-prefix.pch */,
+				A4AB1385C81DE9F1C1DA43CBD1C148B3 /* Freddy-umbrella.h */,
+				54A233FBA5A3BDD00098A49822FAB7DB /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Freddy";
 			sourceTree = "<group>";
 		};
-		E06E65FB62132DBB2A046DC370B0B4A7 /* Support Files */ = {
+		B2F6A44E031358D26235F9ADC1BF3BDD /* Freddy */ = {
 			isa = PBXGroup;
 			children = (
-				5A1CF9882F4905FDFE1D37CCB8AF2AB2 /* Info.plist */,
-				4A39D8F67D0A97CC2481D50528A574A1 /* MindV.modulemap */,
-				99B48B39E02AB0CD475DCDDDCD665132 /* MindV.xcconfig */,
-				3F2E970D04838BFEDC643ACE0D35AF7E /* MindV-dummy.m */,
-				C3F1135D51750DC53D56E4F54EE92FBF /* MindV-prefix.pch */,
-				9CE1E7225448BBF89C905BA2CF4B92B8 /* MindV-umbrella.h */,
+				2C9C390C52B4BA37BA7B464FCAFB02DC /* Freddy.h */,
+				87E737E8DFCE1B498524CA13CC63E746 /* IntExtensions.swift */,
+				1907B0DC8D4F7A9F43F2EBA3DA5B4C72 /* JSON.swift */,
+				E211BD0ECDEF499DE03E774B67243616 /* JSONDecodable.swift */,
+				C3165BEFB7F75625EFE57D087AE1F37E /* JSONEncodable.swift */,
+				4E6AD4BF65FCED962CD5D776D68AA9B1 /* JSONEncodingDetector.swift */,
+				C4707FEF751B3D9638C16FEE33093DB7 /* JSONLiteralConvertible.swift */,
+				109FBDB982C5A59FBD79C9CBC9F55AD0 /* JSONOptional.swift */,
+				DA69444C3A3752FC6A42420C9D1069D5 /* JSONParser.swift */,
+				2447E94BB8AABE2BB7E19566C8A3C3EA /* JSONParsing.swift */,
+				066774EC077816C64ED32463F537DBE4 /* JSONSerializing.swift */,
+				49A9436571938407CFC721E665CC7EF3 /* JSONSubscripting.swift */,
+				993BFC272DD904A550FBA6E52163342B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MindV";
+			name = Freddy;
+			path = Freddy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5322AB6A8F3E51F1481C96A9535F1358 /* Headers */ = {
+		2CBBE7B84394349F8021AA135AF77AF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6AA51FA9EEC55587DB56AB84E73FAD /* MindV-umbrella.h in Headers */,
+				935D468F1E9C3B90515BE64D52EABF58 /* MindV-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +309,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1C032CAEF3040117B7F84D289484921D /* MindV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFDDC65F7EE586B4B8C6491670C1CA7 /* Build configuration list for PBXNativeTarget "MindV" */;
+			buildPhases = (
+				2CBBE7B84394349F8021AA135AF77AF3 /* Headers */,
+				726162BE24A23C1661E2F0473DBDD418 /* Sources */,
+				2E7621A0AF498815CD8533BD06684099 /* Frameworks */,
+				1BCFD5387F6EC76DF0A5850E83E572DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindV;
+			productName = MindV;
+			productReference = 6DB95E431314D77E8D5CFBFFE6A53D5F /* MindV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		65B223EC405C5BCFCFF206BF5C3E5A5D /* Pods-Project_Challenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7DEFAC4181F3AEB2551A443A533770 /* Build configuration list for PBXNativeTarget "Pods-Project_Challenge" */;
@@ -344,24 +365,6 @@
 			productReference = 449DEA27F7148A2F8A805A98AB789C8B /* Freddy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD897244E465333C77119F408D2A0217 /* MindV */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BE581BD0067A33CACB463B32C76CA60 /* Build configuration list for PBXNativeTarget "MindV" */;
-			buildPhases = (
-				5322AB6A8F3E51F1481C96A9535F1358 /* Headers */,
-				9332B3BCC75E22C78B23BF61DF945281 /* Sources */,
-				13915A6F5A3E5AA1F8CC91BE3EFBFEF1 /* Frameworks */,
-				0A3EB1747C0DAEB9B9FC28DB44C9FB96 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MindV;
-			productName = MindV;
-			productReference = 6DB95E431314D77E8D5CFBFFE6A53D5F /* MindV.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -384,14 +387,14 @@
 			projectRoot = "";
 			targets = (
 				C9326D92667F93E9E95D40A3650DB157 /* Freddy */,
-				CD897244E465333C77119F408D2A0217 /* MindV */,
+				1C032CAEF3040117B7F84D289484921D /* MindV */,
 				65B223EC405C5BCFCFF206BF5C3E5A5D /* Pods-Project_Challenge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A3EB1747C0DAEB9B9FC28DB44C9FB96 /* Resources */ = {
+		1BCFD5387F6EC76DF0A5850E83E572DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,19 +445,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9332B3BCC75E22C78B23BF61DF945281 /* Sources */ = {
+		726162BE24A23C1661E2F0473DBDD418 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9E3CDBCAF3AE50E0961961DB3976C9 /* API.swift in Sources */,
-				B71E2F6F49FA88AC6CC74901F4572779 /* CacheManager.swift in Sources */,
-				D19625B3BD9C2473CB30F0C59DC693A1 /* DataType.swift in Sources */,
-				81BD56ED818BE95065F077B879FDBE7C /* Downloader.swift in Sources */,
-				749CD0E10D5C7B2475D6A538C41BFD63 /* FileViewModel.swift in Sources */,
-				72515C8E6D8A94EC368510DDFD03E6F9 /* ImageViewModel.swift in Sources */,
-				BB9859C747D44F0A737E24D5D6955C03 /* JsonViewModel.swift in Sources */,
-				33EA7BB5FA5953018FB965D71F15A21E /* MindV-dummy.m in Sources */,
-				E2A862A68D23A3EC7E503BAADEC38E03 /* MindVL.swift in Sources */,
+				F91D7039866629F084BABFEDB8E6A988 /* API.swift in Sources */,
+				44A802651C2B8937FBD996436F25576D /* BaseViewModel.swift in Sources */,
+				3AE5BD72C0A28564E41F23EF67AB7193 /* CacheManager.swift in Sources */,
+				2241AEE1888363C3A8079BCDF903F5F5 /* DataType.swift in Sources */,
+				DF53967A8D018393DE8C08BAD24E8DD4 /* Downloader.swift in Sources */,
+				5C4C012A9C6692B2E131FA33147365E7 /* FileViewModel.swift in Sources */,
+				FAFC6E634DFCA08A5C2AAD9E04689041 /* ImageViewModel.swift in Sources */,
+				3D423DBDE97C34380592185F894B3B2E /* JsonViewModel.swift in Sources */,
+				EEC1A47A98209A245CC6852D9B1FC396 /* MindV-dummy.m in Sources */,
+				8D3A1ECF51F93B3F940413036F002A13 /* MindVL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +474,7 @@
 		5A4774713944D9BC84C53A2C9DAF759D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MindV;
-			target = CD897244E465333C77119F408D2A0217 /* MindV */;
+			target = 1C032CAEF3040117B7F84D289484921D /* MindV */;
 			targetProxy = 7EEA3F7E9D1C135A527CBBF1DB0D077D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +482,7 @@
 /* Begin XCBuildConfiguration section */
 		0DFA66576B712AB0B5B3E32E3250EAE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF49DE4FCC00676D915957FB49ACBA5 /* Freddy.xcconfig */;
+			baseConfigurationReference = F866EC3851BE0CC7082EA857D95AB89F /* Freddy.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -514,9 +518,9 @@
 			};
 			name = Release;
 		};
-		1E0C19D2DD44F8959DD2A51710B8E27A /* Debug */ = {
+		55D7411958A408AD68E0EEEB71A83A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99B48B39E02AB0CD475DCDDDCD665132 /* MindV.xcconfig */;
+			baseConfigurationReference = 0AF708C6D72BBEEFE3685F23EB678033 /* MindV.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -653,9 +657,9 @@
 			};
 			name = Debug;
 		};
-		7FC8686678F215F162973B944AB8574A /* Release */ = {
+		A6AB2789115F725C8B845240D1B1BEFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99B48B39E02AB0CD475DCDDDCD665132 /* MindV.xcconfig */;
+			baseConfigurationReference = 0AF708C6D72BBEEFE3685F23EB678033 /* MindV.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -693,7 +697,7 @@
 		};
 		A9A5D3BB1D6ABA9F4B29BCB0A87DBE3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF49DE4FCC00676D915957FB49ACBA5 /* Freddy.xcconfig */;
+			baseConfigurationReference = F866EC3851BE0CC7082EA857D95AB89F /* Freddy.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -856,11 +860,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BE581BD0067A33CACB463B32C76CA60 /* Build configuration list for PBXNativeTarget "MindV" */ = {
+		8FFDDC65F7EE586B4B8C6491670C1CA7 /* Build configuration list for PBXNativeTarget "MindV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E0C19D2DD44F8959DD2A51710B8E27A /* Debug */,
-				7FC8686678F215F162973B944AB8574A /* Release */,
+				55D7411958A408AD68E0EEEB71A83A22 /* Debug */,
+				A6AB2789115F725C8B845240D1B1BEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

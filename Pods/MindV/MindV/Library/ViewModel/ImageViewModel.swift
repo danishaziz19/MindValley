@@ -9,9 +9,7 @@
 import Foundation
 import UIKit
 
-class ImageViewModel {
-
-    var api: API = API()
+class ImageViewModel : BaseViewModel {
 
     func loadImage(from url: URL, completion: @escaping (UIImage?, Error?) -> Void) {
         api.getData(from: url, dataType: .image) { (data, error) in

@@ -5,7 +5,7 @@ target 'Project_Challenge' do
     use_frameworks!
 
  	pod 'Freddy'
-	pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :branch => 'master', commit:'dcb6599'
+	pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :branch => 'master', commit:'680536d'
     
 end
 

@@ -32,4 +32,8 @@ class API {
             completion(data, error)
         }
     }
+
+    func cancelDownload(from url: URL) {
+        downloader.cancelDownload(url: url)
+    }
 }
