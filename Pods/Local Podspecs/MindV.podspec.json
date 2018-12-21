@@ -1,0 +1,25 @@
+{
+  "name": "MindV",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "summary": "MindV Image and Json Cache Library",
+  "requires_arc": true,
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Danish Aziz": "danishaziz1989@gmail.com"
+  },
+  "homepage": "https://github.com/pakidanish/MindV",
+  "source": {
+    "git": "https://github.com/pakidanish/MindV.git",
+    "tag": "1.0.0"
+  },
+  "frameworks": "UIKit",
+  "source_files": "MindV/**/*.{swift}",
+  "resources": "MindV/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "swift_version": "4.0"
+}

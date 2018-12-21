@@ -1,0 +1,6 @@
+framework module MindV {
+  umbrella header "MindV-umbrella.h"
+
+  export *
+  module * { export * }
+}
