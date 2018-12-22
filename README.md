@@ -96,8 +96,9 @@ Third Party Library for Json Parsing
 * Image downloading cancel Function using [MindV](https://github.com/pakidanish/MindV) 
 * Cache limit configurable
 * Extension for Date - Reference : [Date+timeAgo](https://gist.github.com/merlos/4a116900771180066cc1461b9edae86d)
-* Extension for UIImageView
+* Extension for UIImageView (Add function loadImage using [MindV](https://github.com/pakidanish/MindV) Library)
 * TableViewAnimation Reference : [Stackoverflow](https://stackoverflow.com/questions/33410482/table-view-cell-load-animation-one-after-another/49570817)
+* Test  classes
  
 
 ## Contributing
