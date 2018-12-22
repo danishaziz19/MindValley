@@ -92,6 +92,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "userViewController", sender: self)
+    }
+
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+
+    }
+
     // load More data
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let contentOffset = scrollView.contentOffset.y
@@ -104,6 +112,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             print("load more")
             // load more data
             self.loadData()
+        }
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let userViewController = segue.destination as? UserViewController {
+            if let indexPath = self.tableview.indexPathForSelectedRow {
+                   userViewController.boardModel = boardModels[indexPath.row]
+                   self.tableView(self.tableview, didDeselectRowAt: indexPath)
+            }
         }
     }
 }
