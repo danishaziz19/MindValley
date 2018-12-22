@@ -9,7 +9,7 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 
 ```bash
 platform :ios, '9.0'
-pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :branch => 'master', commit:'680536d'
+pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :tag => '1.0.9'    
 ```
 
 ## Usage
@@ -17,10 +17,12 @@ pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :branch => 'mast
 ```python
 import MindV
 
-
 MindVL.shared().loadJsonAsData(from: url) { (response, error) in {
 
 }
+
+MindVL.shared().loadImage(from: url, imageView: self, placeHolder: "placeHolder_image")
+
 
 ```
 
