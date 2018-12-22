@@ -14,8 +14,8 @@ public struct UserModel {
     var id: String?
     var userName: String?
     var name: String?
-    var profileImage: ProfileImageModel = ProfileImageModel()
-    var links: LinkModel = LinkModel()
+    var profileImage: ProfileImageModel?
+    var links: LinkModel?
 }
 
 extension UserModel: JSONDecodable {

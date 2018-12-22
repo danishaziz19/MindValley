@@ -18,9 +18,9 @@ public struct BoardModel {
     var height: Int?
     var createdAt: String?
     var color: String?
-    var user: UserModel = UserModel()
-    var urls: URLModel = URLModel()
-    var links: LinkModel = LinkModel()
+    var user: UserModel?
+    var urls: URLModel?
+    var links: LinkModel?
     var categories : [CategoryModel] = []
 }
 

@@ -51,11 +51,9 @@ internal class BoardTableViewCell: UITableViewCell {
             self.createdAtLabel.text = date?.timeAgo(numericDates: true) ?? ""
         }
 
-        if let raw = boardModel.urls.thumb {
-            if let url = URL(string: raw) {
-                DispatchQueue.global(qos: .background).async {
-                    MindVL.shared().loadImage(from: url, imageView: self.boardImageView, placeHolder: "no_image_found")
-                }
+        if let thumb = boardModel.urls?.thumb {
+            if let url = URL(string: thumb) {
+                self.boardImageView.loadImage(from: url, placeHolder: "no_image_found")
             }
         }
     }

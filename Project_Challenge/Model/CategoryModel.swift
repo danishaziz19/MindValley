@@ -13,7 +13,7 @@ public struct CategoryModel {
     var id: Int?
     var photoCount: Int?
     var title: String?
-    var links: LinkModel = LinkModel()
+    var links: LinkModel?
 }
 
 extension CategoryModel: JSONDecodable {
