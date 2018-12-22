@@ -11,8 +11,10 @@ import Freddy
 
 class Model {
 
+    var boardAPI: BoardAPI = BoardAPI()
+
     func getBoards(url: String, completion: @escaping ([BoardModel]?, Error?) -> Void) {
-        BoardAPI().getBoards(url: url) { (boardModels, error) in
+        boardAPI.getBoards(url: url) { (boardModels, error) in
             completion(boardModels, error)
         }
     }

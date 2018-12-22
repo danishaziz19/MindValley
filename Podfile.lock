@@ -4,7 +4,7 @@ PODS:
 
 DEPENDENCIES:
   - Freddy
-  - MindV (from `https://github.com/pakidanish/MindV.git`, tag `1.0.9`)
+  - MindV (from `https://github.com/pakidanish/MindV.git`, tag `1.0.11`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -13,17 +13,17 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   MindV:
     :git: https://github.com/pakidanish/MindV.git
-    :tag: 1.0.9
+    :tag: 1.0.11
 
 CHECKOUT OPTIONS:
   MindV:
     :git: https://github.com/pakidanish/MindV.git
-    :tag: 1.0.9
+    :tag: 1.0.11
 
 SPEC CHECKSUMS:
   Freddy: 7c62db262a0d0e3b3e2b8b40f2c0cc51e122fbc4
   MindV: 2c20dbe7aa84a7b25ac7e46da885c752baaf66c2
 
-PODFILE CHECKSUM: d5580ee4e363af879650337952457e290aabfb51
+PODFILE CHECKSUM: 888ab743912b6ae69b59713d7019cb84369d321d
 
 COCOAPODS: 1.5.3

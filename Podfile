@@ -5,6 +5,6 @@ target 'Project_Challenge' do
     use_frameworks!
 
  	pod 'Freddy'
-	pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :tag => '1.0.9'    
+	pod 'MindV', :git => 'https://github.com/pakidanish/MindV.git', :tag => '1.0.11'    
 end
 

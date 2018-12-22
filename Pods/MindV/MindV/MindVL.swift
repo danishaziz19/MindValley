@@ -46,6 +46,23 @@ public class MindVL {
         }
     }
 
+    public func loadImage(from url: URL, imageView: UIImageView, placeHolder: String, completion: @escaping (Bool) -> Void) {
+        DispatchQueue.main.async() {
+            imageView.image = UIImage(named: placeHolder)
+        }
+        ImageViewModel().loadImage(from: url) { (image, error) in
+            DispatchQueue.main.async() {
+                if let image = image {
+                    imageView.image = image
+                    completion(true)
+                } else {
+                    imageView.image = UIImage(named: placeHolder)
+                    completion(false)
+                }
+            }
+        }
+    }
+
     public func loadImage(from url: URL, imageView: UIImageView, placeHolder: String) {
         DispatchQueue.main.async() {
             imageView.image = UIImage(named: placeHolder)

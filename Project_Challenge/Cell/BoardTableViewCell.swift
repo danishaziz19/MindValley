@@ -51,8 +51,8 @@ internal class BoardTableViewCell: UITableViewCell {
             self.createdAtLabel.text = date?.timeAgo(numericDates: true) ?? ""
         }
 
-        if let thumb = boardModel.urls?.thumb {
-            if let url = URL(string: thumb) {
+        if let small = boardModel.urls?.small {
+            if let url = URL(string: small) {
                 self.boardImageView.loadImage(from: url, placeHolder: "no_image_found")
             }
         }

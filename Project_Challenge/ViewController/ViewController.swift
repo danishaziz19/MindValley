@@ -12,6 +12,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableview: UITableView!
 
+    private var isLoadingMore = false
+    private var isAllItemLoaded = false
+    private var finishedLoadingInitialTableCells = false
+    var maxItemsLoad: Int = 10
+    var itemLoad: Int = 0
+    let threshold = 0
+    var boardModels: [BoardModel] = []
+
+    let boardURL: String = "https://pastebin.com/raw/wgkJgazE"
+
     lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action:
@@ -20,14 +30,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         return refreshControl
     }()
-
-    var isLoadingMore = false // flag
-    var isAllItemLoaded = false // flag
-    var maxItemsLoad: Int = 10
-    var itemLoad: Int = 0
-    let threshold = 0
-    var boardModels: [BoardModel] = []
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func loadData() {
-        Model().getBoards(url: "https://pastebin.com/raw/wgkJgazE") { (boardModels, error) in
+        Model().getBoards(url: self.boardURL) { boardModels, error in
             if let boardModels = boardModels {
                 let boardModel = boardModels[self.itemLoad..<self.maxItemsLoad]
                 if boardModel.count > 0 {
@@ -64,7 +66,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     // MARK: - UIRefreshControl
-
     @objc
     func refreshList(_ refreshControl: UIRefreshControl) {
        self.boardModels.removeAll()
@@ -94,10 +95,35 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "userViewController", sender: self)
+        self.tableview.deselectRow(at: indexPath, animated: true)
     }
 
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
 
+    }
+
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        var lastInitialDisplayableCell = false
+        //change flag as soon as last displayable cell is being loaded (which will mean table has initially loaded)
+        if boardModels.count > 0 && !finishedLoadingInitialTableCells {
+            if let indexPathsForVisibleRows = tableView.indexPathsForVisibleRows,
+                let lastIndexPath = indexPathsForVisibleRows.last, lastIndexPath.row == indexPath.row {
+                lastInitialDisplayableCell = true
+            }
+        }
+
+        if !finishedLoadingInitialTableCells {
+            if lastInitialDisplayableCell {
+                finishedLoadingInitialTableCells = true
+            }
+            //animates the cell as it is being displayed for the first time
+            cell.transform = CGAffineTransform(translationX: 0, y: 75)
+            cell.alpha = 0
+            UIView.animate(withDuration: 0.5, delay: 0.05*Double(indexPath.row), options: [.curveEaseInOut], animations: {
+                cell.transform = CGAffineTransform(translationX: 0, y: 0)
+                cell.alpha = 1
+            }, completion: nil)
+        }
     }
 
     // load More data
@@ -108,9 +134,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if !isLoadingMore && !isAllItemLoaded && (Int(maximumOffset - contentOffset)) <= threshold {
             // Get more data - API call
             self.isLoadingMore = true
-
-            print("load more")
-            // load more data
             self.loadData()
         }
     }
@@ -118,8 +141,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let userViewController = segue.destination as? UserViewController {
             if let indexPath = self.tableview.indexPathForSelectedRow {
-                   userViewController.boardModel = boardModels[indexPath.row]
-                   self.tableView(self.tableview, didDeselectRowAt: indexPath)
+                userViewController.boardModel = boardModels[indexPath.row]
             }
         }
     }

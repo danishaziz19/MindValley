@@ -27,11 +27,12 @@ class BoardAPI {
                         completion(boardModels, nil)
                     }
                 } catch {
-                    completion(nil, NSError(domain: url.absoluteString, code: 400, userInfo: [NSLocalizedDescriptionKey : NSLocalizedString("General Parsing Error Description", comment: "General Parsing Error Description")]))
+
+                    completion(nil, NSError.generalError(domain: url.absoluteString, comment: "Json parsing error"))
                 }
             }
         } else {
-             completion(nil, NSError(domain: "URL ERROR", code: 400, userInfo: [NSLocalizedDescriptionKey : NSLocalizedString("General Parsing Error Description", comment: "General Parsing Error Description")]))
+             completion(nil, NSError.generalError(domain: "Invalid URL", comment: "Invalid URL"))
         }
     }
 }
