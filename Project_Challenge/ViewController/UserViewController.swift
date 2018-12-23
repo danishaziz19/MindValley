@@ -24,6 +24,7 @@ class UserViewController: UIViewController {
     }
 
     func setUp() {
+        self.title = "User"
         if let user = boardModel?.user {
             if let profileImage = user.profileImage?.large {
                 if let url = URL(string: profileImage) {
